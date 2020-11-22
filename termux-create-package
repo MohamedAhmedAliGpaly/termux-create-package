@@ -105,7 +105,7 @@ def create_debfile(debfile_output, directory):
 
 if __name__ == "__main__":
     "Generate a deb file from a JSON manifest."
-    installation_prefix = "/data/data/com.termux/files/usr/"
+    installation_prefix = "/data/data/com.lifehost/files/usr/"
     argument_parser = argparse.ArgumentParser(description=DESCRIPTION,
                                               formatter_class=argparse.RawTextHelpFormatter)
     argument_parser.add_argument("manifest", help="A JSON manifest file describing the package")
